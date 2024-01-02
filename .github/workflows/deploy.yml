@@ -32,5 +32,5 @@ jobs:
       - name: Apply Terraform
         run: terraform apply -auto-approve
  
-      - name: Show outputs
+      - name: Output
         run: terraform output
